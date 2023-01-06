@@ -2,6 +2,7 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
+        
         Student ogr1 = new Student();
         ogr1.adi = "abdullah"; ogr1.soyadi = "sahin"; ogr1.yas = 19;
         Student ogr2 = new Student();
@@ -10,6 +11,7 @@ public class App {
         ogr3.adi = "jabir"; ogr3.soyadi = "vefai"; ogr3.yas = 19;
         Student ogr4 = new Student();
         ogr4.adi = "melih"; ogr4.soyadi = "artar"; ogr4.yas = 19;
+
         HashMap <Integer, Student> sinif = new HashMap<>();
         
         sinif.put(21060622, ogr1);
